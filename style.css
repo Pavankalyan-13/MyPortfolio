@@ -1900,3 +1900,37 @@ button:focus-visible {
     }
 
 }
+
+/* =====================================
+   ACCESSIBILITY CONTRAST IMPROVEMENTS
+===================================== */
+
+/* Improve developer.js text visibility */
+.code-filename {
+    color: #d7e0f0 !important;
+}
+
+/* Improve readability of secondary text */
+:root {
+    --subtle: #a7b2c6;
+}
+
+/* Remove decorative glow layers affecting contrast */
+.glow {
+    display: none;
+}
+
+/* Maintain a consistent dark background */
+body {
+    background-color: #090b14;
+    color: #f5f5ff;
+}
+
+/* Improve code window readability */
+.code-header {
+    background-color: #111827;
+}
+
+.code-card {
+    background-color: #111827;
+}
